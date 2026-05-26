@@ -2,11 +2,13 @@
 
 A visually appealing, responsive web-based Ice Cream Menu Card built as a frontend web development assignment. This project focuses on showcasing a clean layout, proper semantic structure, and a beautifully presented list of ice cream flavors, categories, and prices.
 
+
 ## Features
 
 * **Categorized Layout:** Clear separation of different ice cream categories, sundaes, and dessert options.
 * **Semantic Markup:** Built using modern HTML elements to maintain proper document hierarchy and accessibility.
 * **Themed Design:** Designed with a vibrant, appetizing color scheme tailored perfectly to an ice cream parlor theme.
+
 
 ## Project Structure
 
