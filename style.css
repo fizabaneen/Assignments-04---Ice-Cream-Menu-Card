@@ -1,0 +1,62 @@
+.b {
+    background-image: url(Assets/background\ pic.jpg);
+    
+}
+ 
+.container {
+    text-align: center;
+    color: #ffffff;
+    font-family: Arial, sans-serif;
+    font-size: 13px;
+    margin-top: -15px;
+    margin-left: -8px;
+    margin-right: -8px;
+    background-color:#124047;
+    padding-top: 7px;
+}
+
+/* .button {
+    background-color: #124047;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    margin: 5px;
+    text-align: left;
+    padding-left: 40px;
+    margin-top: 20px; 
+} */
+
+
+
+.button-container {
+    display: flex;
+    justify-content: flex-start; /* Items ko left side par move karta hai */
+    gap: 15px;                  /* Dono buttons ke beech ka fasla */
+    padding-left: 40px;         /* Screen ke left corner se thoda gap */
+    margin-top: 20px;           /* Upper layout se thodi doori */
+}
+
+/* Button ki actual styling (Pill shape) */
+.button {
+    background-color: #ffffff;  /* Original web par buttons white hain */
+    color: #333333;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 10px 20px;
+    border: 1px solid #e0e0e0;  /* Light gray border */
+    border-radius: 25px;        /* Round edges (pill shape) ke liye */
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+   
+}
+
+/* Jab mouse button par le kar jayein */
+.button:hover {
+    background-color: #f5f5f5;
+    border-color: #cccccc;
+}
